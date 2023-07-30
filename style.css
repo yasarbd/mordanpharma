@@ -1,10 +1,12 @@
-<style>
+
   @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-</style>
+
 *{
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
         /* Header area */
@@ -14,6 +16,7 @@
     list-style: none;
     justify-content: space-between;
     margin: 0px 100px;
+    padding: 10px 0px;
 }
 .text{
     display: flex;
@@ -51,6 +54,7 @@
    
 .hed{
     color: #19CE67;
+    margin-bottom: 10px;
 }
 
 .image-area{
@@ -62,6 +66,7 @@
     border: none;
     padding: 3px;
     color: white;
+    margin-top: 15px;
    
 }
 .btn2{
@@ -80,6 +85,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 20px;
+    margin-top: 30px;
     
 
 }
@@ -105,6 +111,10 @@
 }
 .heading>p{
     text-align: center;
+   
+}
+.heading{
+    margin-top: 30px;
 }
 
 
@@ -128,6 +138,7 @@
     color: white;
     border-radius: 0px 0px 10px 10px;
     border: none;
+    padding: 5px;
 }
 .more{
     background-color: #19CE67;
@@ -136,11 +147,14 @@
     border-radius: 5px;
     padding: 5px 10px;
     margin-top: 5px;
+    text-align: center;
 
 }
 .browse{
    width: 100%;
     margin: auto;
+    text-align: center;
+    margin-top: 5px;
    
     
 }
@@ -149,6 +163,7 @@
 
 .heading2{
     text-align: center;
+    margin-top: 30px;
 }
 .hed2{
     color: #19CE67;
@@ -159,6 +174,7 @@
     grid-template-columns: auto auto auto auto;
     margin: 0px 100px;
     gap: 20px;
+    margin-top: 30px;
 }
 .picture-area{
     width: 200px;
@@ -178,6 +194,7 @@
 }
 .heading3{
     text-align: center;
+    margin-top: 30px;
    
 }
 .news-area1{
@@ -185,6 +202,7 @@
     display: grid;
     margin: 0px 100px;
     gap: 20px;
+    margin-top: 30px;
 }
 .news-area2{
     /* text-align: center; */
@@ -252,6 +270,7 @@ width: 25%;
     display: flex;
     background-color: black;
     color: white;
+    margin-bottom: 15px;
    
 }
 
